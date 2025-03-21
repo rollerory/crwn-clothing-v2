@@ -3,8 +3,6 @@ import "./categories-container.style.scss";
 
 const CategoriesContainer = ( { categories } ) => {
     
-    console.log(categories);
-    
     return (
         <div className="categories-container">
             {categories.map((category) => (
